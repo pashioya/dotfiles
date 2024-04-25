@@ -130,6 +130,7 @@ speex
 sqlite
 srt
 starship
+stow
 svt-av1
 tbb
 tesseract
