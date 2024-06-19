@@ -33,11 +33,11 @@ if uname -a | grep -qi darwin; then
 
   # Evals
   eval "$(starship init zsh)"
-  eval "$(zoxide init zsh)"
 fi
 
-
-
+# common configurations for all environments
+  # Zoxide
+eval "$(zoxide init zsh)"
   # User configuration
   
   # Aliases
