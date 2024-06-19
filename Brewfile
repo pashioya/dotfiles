@@ -1,173 +1,136 @@
-aom
-aribb24
-bat
-boost
-brotli
-btop
-c-ares
-ca-certificates
-cairo
-cjson
-dav1d
-double-conversion
-edencommon
-eza
-fb303
-fbthrift
-ffmpeg
-fizz
-flac
-fmt
-folly
-fontconfig
-freetype
-frei0r
-fribidi
-fzf
-gcc
-gettext
-gflags
-gh
-ghostscript
-giflib
-glib
-glog
-gmp
-gnutls
-graphite2
-harfbuzz
-highway
-hwloc
-icu4c
-imath
-isl
-jbig2dec
-jpeg-turbo
-jpeg-xl
-lame
-lazygit
-leptonica
-libarchive
-libass
-libb2
-libbluray
-libevent
-libgit2
-libidn
-libidn2
-libmicrohttpd
-libmpc
-libnghttp2
-libogg
-libpng
-librist
-libsamplerate
-libsndfile
-libsodium
-libsoxr
-libssh
-libssh2
-libtasn1
-libtermkey
-libtiff
-libunibreak
-libunistring
-libuv
-libvidstab
-libvmaf
-libvorbis
-libvpx
-libvterm
-libx11
-libxau
-libxcb
-libxdmcp
-libxext
-libxrender
-libzip
-little-cms2
-llvm
-luajit
-luv
-lz4
-lzo
-mbedtls
-mpdecimal
-mpfr
-mpg123
-msgpack
-ncurses
-neovim
-nettle
-node
-numpy
-oniguruma
-openblas
-opencore-amr
-openexr
-openjdk
-openjpeg
-openssl@3
-openvino
-opus
-p11-kit
-pandoc
-pango
-pcre2
-pixman
-pkg-config
-pugixml
-python-packaging
-python@3.12
-rav1e
-readline
-ripgrep
-rubberband
-rust
-sdl2
-snappy
-speex
-sqlite
-srt
-starship
-stow
-svt-av1
-tbb
-tesseract
-theora
-tldr
-tree-sitter
-unbound
-unibilium
-utf8proc
-wangle
-watchman
-webp
-x264
-x265
-xorgproto
-xvid
-xz
-z3
-zeromq
-zimg
-zoxide
-zstd
-android-studio
-arc
-discord
-docker
-intellij-idea
-mactex-no-gui
-microsoft-auto-update
-microsoft-office
-microsoft-teams
-numi
-obsidian
-raycast
-rectangle
-slack
-spotify
-visual-studio-code
-vlc
-warp
+tap "homebrew/bundle"
+brew "bat"
+brew "btop"
+brew "eza"
+brew "lazygit"
+brew "neovim"
+brew "starship"
+brew "stow"
+brew "tldr"
+brew "zoxide"
+cask "arc"
+cask "discord"
+cask "intellij-idea"
+cask "microsoft-auto-update"
+cask "microsoft-office"
+cask "microsoft-teams"
+cask "numi"
+cask "obsidian"
+cask "raycast"
+cask "rectangle"
+cask "spotify"
+cask "visual-studio-code"
+cask "vlc"
+cask "warp"
+vscode "1yib.rust-bundle"
+vscode "4ops.terraform"
+vscode "aaron-bond.better-comments"
+vscode "austenc.tailwind-docs"
+vscode "bmuskalla.vscode-tldr"
+vscode "bradlc.vscode-tailwindcss"
+vscode "burkeholland.simple-react-snippets"
+vscode "christian-kohler.npm-intellisense"
+vscode "christian-kohler.path-intellisense"
+vscode "chrmarti.regex"
+vscode "davidanson.vscode-markdownlint"
+vscode "dbaeumer.vscode-eslint"
+vscode "donjayamanne.python-environment-manager"
+vscode "donjayamanne.python-extension-pack"
+vscode "dotjoshjohnson.xml"
+vscode "dsznajder.es7-react-js-snippets"
+vscode "dustypomerleau.rust-syntax"
+vscode "eamodio.gitlens"
+vscode "ecmel.vscode-html-css"
+vscode "equinusocio.vsc-material-theme"
+vscode "equinusocio.vsc-material-theme-icons"
+vscode "esbenp.prettier-vscode"
+vscode "firefox-devtools.vscode-firefox-debug"
+vscode "formulahendry.auto-rename-tag"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "helixquar.randomeverything"
+vscode "humao.rest-client"
+vscode "ibm.output-colorizer"
+vscode "james-yu.latex-workshop"
+vscode "janisdd.vscode-edit-csv"
+vscode "jebbs.plantuml"
+vscode "jithurjacob.nbpreviewer"
+vscode "joeberria.statusbarerror"
+vscode "kevinrose.vsc-python-indent"
+vscode "mathematic.vscode-latex"
+vscode "mechatroner.rainbow-csv"
+vscode "monish.regexsnippets"
+vscode "ms-azuretools.azure-dev"
+vscode "ms-azuretools.vscode-azureappservice"
+vscode "ms-azuretools.vscode-azurecontainerapps"
+vscode "ms-azuretools.vscode-azurefunctions"
+vscode "ms-azuretools.vscode-azureresourcegroups"
+vscode "ms-azuretools.vscode-azurestaticwebapps"
+vscode "ms-azuretools.vscode-azurestorage"
+vscode "ms-azuretools.vscode-azurevirtualmachines"
+vscode "ms-azuretools.vscode-cosmosdb"
+vscode "ms-azuretools.vscode-docker"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-python.black-formatter"
+vscode "ms-python.debugpy"
+vscode "ms-python.isort"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-toolsai.jupyter"
+vscode "ms-toolsai.jupyter-keymap"
+vscode "ms-toolsai.jupyter-renderers"
+vscode "ms-toolsai.vscode-jupyter-cell-tags"
+vscode "ms-toolsai.vscode-jupyter-slideshow"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-wsl"
+vscode "ms-vscode.azure-account"
+vscode "ms-vscode.cpptools"
+vscode "ms-vscode.cpptools-extension-pack"
+vscode "ms-vscode.cpptools-themes"
+vscode "ms-vscode.powershell"
+vscode "ms-vscode.vscode-node-azure-pack"
+vscode "ms-vscode.vscode-typescript-next"
+vscode "msjsdiag.vscode-react-native"
+vscode "naco-siren.gradle-language"
+vscode "njpwerner.autodocstring"
+vscode "pkief.material-icon-theme"
+vscode "platformio.platformio-ide"
+vscode "qhoekman.language-plantuml"
+vscode "randomfractalsinc.vscode-data-preview"
+vscode "redhat.java"
+vscode "redhat.vscode-xml"
+vscode "remisa.shellman"
+vscode "richardwillis.vscode-gradle-extension-pack"
+vscode "ritwickdey.liveserver"
+vscode "rust-lang.rust-analyzer"
+vscode "rvest.vs-code-prettier-eslint"
+vscode "serayuzgur.crates"
+vscode "steoates.autoimport"
+vscode "streetsidesoftware.code-spell-checker"
+vscode "syler.sass-indented"
+vscode "tamasfe.even-better-toml"
+vscode "tauri-apps.tauri-vscode"
+vscode "thekalinga.bootstrap4-vscode"
+vscode "theumletteam.umlet"
+vscode "timonwong.shellcheck"
+vscode "tomrijndorp.find-it-faster"
+vscode "tyriar.lorem-ipsum"
+vscode "usernamehw.errorlens"
+vscode "visualstudioexptteam.intellicode-api-usage-examples"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vmware.vscode-boot-dev-pack"
+vscode "vmware.vscode-spring-boot"
+vscode "vscjava.vscode-gradle"
+vscode "vscjava.vscode-java-debug"
+vscode "vscjava.vscode-java-dependency"
+vscode "vscjava.vscode-java-pack"
+vscode "vscjava.vscode-java-test"
+vscode "vscjava.vscode-maven"
+vscode "vscjava.vscode-spring-boot-dashboard"
+vscode "vscjava.vscode-spring-initializr"
+vscode "wallabyjs.console-ninja"
+vscode "wallabyjs.quokka-vscode"
+vscode "wayou.vscode-todo-highlight"
+vscode "wix.vscode-import-cost"
+vscode "yoavbls.pretty-ts-errors"
+vscode "yzhang.markdown-all-in-one"
