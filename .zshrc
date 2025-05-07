@@ -62,3 +62,12 @@ PATH=~/.console-ninja/.bin:$PATH
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+#rebase function
+grebase() {
+  git rebase -i HEAD~$1
+}
+
+gpush(){
+  git push --force-with-lease
+}
