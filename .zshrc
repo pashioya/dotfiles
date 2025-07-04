@@ -63,9 +63,18 @@ PATH=~/.console-ninja/.bin:$PATH
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-#rebase function
+#git functions
 grebase() {
   git rebase -i HEAD~$1
+}
+
+grewind() {
+  git reset --hard HEAD~$1
+}
+
+gamend() {
+  git add .
+  git commit --amend
 }
 
 gpush(){
