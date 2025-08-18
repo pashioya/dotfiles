@@ -77,6 +77,14 @@ gamend() {
   git commit --amend
 }
 
+gcontinue(){
+  git rebase --continue
+}
+
+gabort(){
+  git rebase --abort
+}
+
 gpush(){
   git push --force-with-lease
 }
