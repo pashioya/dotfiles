@@ -85,9 +85,18 @@ gabort(){
   git rebase --abort
 }
 
+gstash(){
+  git stash
+}
+
+gpop(){
+  git stash pop
+}
+
 gpush(){
   git push --force-with-lease
 }
+
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/pashioya/.docker/completions $fpath)
 autoload -Uz compinit
