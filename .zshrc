@@ -97,6 +97,19 @@ gpush(){
   git push --force-with-lease
 }
 
+
+# Optimile Aliases
+alias ptest="docker compose run manage-platform test --keepdb"
+alias otest="docker compose run manage-platform test --keepdb"
+
+
+
+# Command completions
+
+autoload -Uz compinit
+compinit
+
+
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/pashioya/.docker/completions $fpath)
 autoload -Uz compinit
