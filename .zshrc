@@ -123,3 +123,12 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+# BEGIN ANSIBLE MANAGED BLOCK - NVM SETUP
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # Loads nvm bash_completion
+# END ANSIBLE MANAGED BLOCK - NVM SETUP
+export LANG="en_US.UTF-8"
+
+# For dotnet
+export PATH="/usr/local/share/dotnet:$PATH"
