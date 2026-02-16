@@ -100,7 +100,11 @@ export LANG="en_US.UTF-8"
 
 # For dotnet
 export PATH="/usr/local/share/dotnet:$PATH"
+
+# For postgresql
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
+# for autocomplete
+source ~/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 
