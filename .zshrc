@@ -71,6 +71,7 @@ alias ptest="docker compose run manage-platform test --keepdb"
 
 
 # Command completions
+source ~/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
 autoload -Uz compinit
 compinit
 
