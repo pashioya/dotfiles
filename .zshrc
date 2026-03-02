@@ -69,22 +69,6 @@ gpull(){
 alias ptest="docker compose run manage-platform test --keepdb"
 
 
-
-# Command completions
-source ~/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
-autoload -Uz compinit
-compinit
-
-
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-# Single compinit with cache safety (covers Docker too)
-if [[ -n ${ZDOTDIR:-$HOME}/.zcompdump(N-1) ]]; then
-  compinit
-else
-  compinit -C  # Skip security check
-fi
-# End of Docker CLI completions
-
 # pnpm
 export PNPM_HOME="/Users/pashioya/Library/pnpm"
 case ":$PATH:" in
@@ -99,13 +83,7 @@ export NVM_DIR="$HOME/.nvm"
 # END ANSIBLE MANAGED BLOCK - NVM SETUP
 export LANG="en_US.UTF-8"
 
-# For dotnet
-export PATH="/usr/local/share/dotnet:$PATH"
 
 # For postgresql
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
-
-# for autocomplete
-source ~/.zsh-autocomplete/zsh-autocomplete.plugin.zsh
-
 
