@@ -1,6 +1,4 @@
 eval "$(starship init zsh)"
-  # Zoxide
-eval "$(zoxide init zsh)"
   # User configuration
   
   # Aliases
@@ -87,3 +85,6 @@ export LANG="en_US.UTF-8"
 # For postgresql
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
+
+# Zoxide
+eval "$(zoxide init zsh)"
